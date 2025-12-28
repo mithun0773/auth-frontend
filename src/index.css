@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@source "./src/**/*.{html,js,jsx,ts,tsx}";
+
+/* LIGHT THEME VARIABLES */
+:root {
+  --bg: #f8fafc;
+  --text: #1e293b;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+   --accent: #2563eb;
+}
+
+/* DARK THEME VARIABLES */
+.dark {
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --card-bg: #1e293b;
+  --border: #334155;
+  --accent: #3b82f6;
+}
+
+/* Smooth transition */
+html, body {
+  transition: background 0.3s, color 0.3s;
+}
